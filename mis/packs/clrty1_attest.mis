@@ -1,0 +1,174 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: Chainalysis KYT Screener · Clrty1Attest
+
+module ChainalysisKytScreenerClrty1Attest {
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_clrty1_attest_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant clrty1_attest_081: clrty1_attest_081_bound == true;
+  invariant clrty1_attest_082: clrty1_attest_082_bound == true;
+  invariant clrty1_attest_083: clrty1_attest_083_bound == true;
+  invariant clrty1_attest_084: clrty1_attest_084_bound == true;
+  invariant clrty1_attest_085: clrty1_attest_085_bound == true;
+  invariant clrty1_attest_086: clrty1_attest_086_bound == true;
+  invariant clrty1_attest_087: clrty1_attest_087_bound == true;
+  invariant clrty1_attest_088: clrty1_attest_088_bound == true;
+  invariant clrty1_attest_089: clrty1_attest_089_bound == true;
+  invariant clrty1_attest_090: clrty1_attest_090_bound == true;
+  invariant clrty1_attest_091: clrty1_attest_091_bound == true;
+  invariant clrty1_attest_092: clrty1_attest_092_bound == true;
+  invariant clrty1_attest_093: clrty1_attest_093_bound == true;
+  invariant clrty1_attest_094: clrty1_attest_094_bound == true;
+  invariant clrty1_attest_095: clrty1_attest_095_bound == true;
+  invariant clrty1_attest_096: clrty1_attest_096_bound == true;
+  invariant clrty1_attest_097: clrty1_attest_097_bound == true;
+  invariant clrty1_attest_098: clrty1_attest_098_bound == true;
+  invariant clrty1_attest_099: clrty1_attest_099_bound == true;
+  invariant clrty1_attest_100: clrty1_attest_100_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_clrty1_attest_081(payload: Bytes) {
+    require payload != @0;
+    constraint clrty1_attest_081_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_clrty1_attest_082(payload: Bytes) {
+    require payload != @0;
+    constraint clrty1_attest_082_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_clrty1_attest_083(payload: Bytes) {
+    require payload != @0;
+    constraint clrty1_attest_083_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_clrty1_attest_084(payload: Bytes) {
+    require payload != @0;
+    constraint clrty1_attest_084_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_clrty1_attest_085(payload: Bytes) {
+    require payload != @0;
+    constraint clrty1_attest_085_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_clrty1_attest_086(payload: Bytes) {
+    require payload != @0;
+    constraint clrty1_attest_086_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_clrty1_attest_087(payload: Bytes) {
+    require payload != @0;
+    constraint clrty1_attest_087_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_clrty1_attest_088(payload: Bytes) {
+    require payload != @0;
+    constraint clrty1_attest_088_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_clrty1_attest_089(payload: Bytes) {
+    require payload != @0;
+    constraint clrty1_attest_089_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_clrty1_attest_090(payload: Bytes) {
+    require payload != @0;
+    constraint clrty1_attest_090_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_clrty1_attest_091(payload: Bytes) {
+    require payload != @0;
+    constraint clrty1_attest_091_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_clrty1_attest_092(payload: Bytes) {
+    require payload != @0;
+    constraint clrty1_attest_092_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_clrty1_attest_093(payload: Bytes) {
+    require payload != @0;
+    constraint clrty1_attest_093_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_clrty1_attest_094(payload: Bytes) {
+    require payload != @0;
+    constraint clrty1_attest_094_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_clrty1_attest_095(payload: Bytes) {
+    require payload != @0;
+    constraint clrty1_attest_095_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_clrty1_attest_096(payload: Bytes) {
+    require payload != @0;
+    constraint clrty1_attest_096_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_clrty1_attest_097(payload: Bytes) {
+    require payload != @0;
+    constraint clrty1_attest_097_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_clrty1_attest_098(payload: Bytes) {
+    require payload != @0;
+    constraint clrty1_attest_098_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_clrty1_attest_099(payload: Bytes) {
+    require payload != @0;
+    constraint clrty1_attest_099_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_clrty1_attest_100(payload: Bytes) {
+    require payload != @0;
+    constraint clrty1_attest_100_bound == true;
+    constraint chain_id == 1202;
+  }
+
+
+  outcome attest_kyt_clrty1(payload: Bytes) {
+    require payload != @0;
+    constraint settlement_network == clrty_1;
+    constraint chain_id == 1202;
+  }
+}

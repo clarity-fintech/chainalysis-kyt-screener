@@ -1,0 +1,168 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: Chainalysis KYT Screener · RiskBand
+
+module ChainalysisKytScreenerRiskBand {
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_risk_band_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant risk_band_061: risk_band_061_bound == true;
+  invariant risk_band_062: risk_band_062_bound == true;
+  invariant risk_band_063: risk_band_063_bound == true;
+  invariant risk_band_064: risk_band_064_bound == true;
+  invariant risk_band_065: risk_band_065_bound == true;
+  invariant risk_band_066: risk_band_066_bound == true;
+  invariant risk_band_067: risk_band_067_bound == true;
+  invariant risk_band_068: risk_band_068_bound == true;
+  invariant risk_band_069: risk_band_069_bound == true;
+  invariant risk_band_070: risk_band_070_bound == true;
+  invariant risk_band_071: risk_band_071_bound == true;
+  invariant risk_band_072: risk_band_072_bound == true;
+  invariant risk_band_073: risk_band_073_bound == true;
+  invariant risk_band_074: risk_band_074_bound == true;
+  invariant risk_band_075: risk_band_075_bound == true;
+  invariant risk_band_076: risk_band_076_bound == true;
+  invariant risk_band_077: risk_band_077_bound == true;
+  invariant risk_band_078: risk_band_078_bound == true;
+  invariant risk_band_079: risk_band_079_bound == true;
+  invariant risk_band_080: risk_band_080_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_risk_band_061(payload: Bytes) {
+    require payload != @0;
+    constraint risk_band_061_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_risk_band_062(payload: Bytes) {
+    require payload != @0;
+    constraint risk_band_062_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_risk_band_063(payload: Bytes) {
+    require payload != @0;
+    constraint risk_band_063_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_risk_band_064(payload: Bytes) {
+    require payload != @0;
+    constraint risk_band_064_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_risk_band_065(payload: Bytes) {
+    require payload != @0;
+    constraint risk_band_065_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_risk_band_066(payload: Bytes) {
+    require payload != @0;
+    constraint risk_band_066_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_risk_band_067(payload: Bytes) {
+    require payload != @0;
+    constraint risk_band_067_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_risk_band_068(payload: Bytes) {
+    require payload != @0;
+    constraint risk_band_068_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_risk_band_069(payload: Bytes) {
+    require payload != @0;
+    constraint risk_band_069_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_risk_band_070(payload: Bytes) {
+    require payload != @0;
+    constraint risk_band_070_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_risk_band_071(payload: Bytes) {
+    require payload != @0;
+    constraint risk_band_071_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_risk_band_072(payload: Bytes) {
+    require payload != @0;
+    constraint risk_band_072_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_risk_band_073(payload: Bytes) {
+    require payload != @0;
+    constraint risk_band_073_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_risk_band_074(payload: Bytes) {
+    require payload != @0;
+    constraint risk_band_074_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_risk_band_075(payload: Bytes) {
+    require payload != @0;
+    constraint risk_band_075_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_risk_band_076(payload: Bytes) {
+    require payload != @0;
+    constraint risk_band_076_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_risk_band_077(payload: Bytes) {
+    require payload != @0;
+    constraint risk_band_077_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_risk_band_078(payload: Bytes) {
+    require payload != @0;
+    constraint risk_band_078_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_risk_band_079(payload: Bytes) {
+    require payload != @0;
+    constraint risk_band_079_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_risk_band_080(payload: Bytes) {
+    require payload != @0;
+    constraint risk_band_080_bound == true;
+    constraint chain_id == 1202;
+  }
+
+}

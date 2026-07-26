@@ -1,0 +1,174 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: Chainalysis KYT Screener · KytScore
+
+module ChainalysisKytScreenerKytScore {
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_kyt_score_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant kyt_score_001: kyt_score_001_bound == true;
+  invariant kyt_score_002: kyt_score_002_bound == true;
+  invariant kyt_score_003: kyt_score_003_bound == true;
+  invariant kyt_score_004: kyt_score_004_bound == true;
+  invariant kyt_score_005: kyt_score_005_bound == true;
+  invariant kyt_score_006: kyt_score_006_bound == true;
+  invariant kyt_score_007: kyt_score_007_bound == true;
+  invariant kyt_score_008: kyt_score_008_bound == true;
+  invariant kyt_score_009: kyt_score_009_bound == true;
+  invariant kyt_score_010: kyt_score_010_bound == true;
+  invariant kyt_score_011: kyt_score_011_bound == true;
+  invariant kyt_score_012: kyt_score_012_bound == true;
+  invariant kyt_score_013: kyt_score_013_bound == true;
+  invariant kyt_score_014: kyt_score_014_bound == true;
+  invariant kyt_score_015: kyt_score_015_bound == true;
+  invariant kyt_score_016: kyt_score_016_bound == true;
+  invariant kyt_score_017: kyt_score_017_bound == true;
+  invariant kyt_score_018: kyt_score_018_bound == true;
+  invariant kyt_score_019: kyt_score_019_bound == true;
+  invariant kyt_score_020: kyt_score_020_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_kyt_score_001(payload: Bytes) {
+    require payload != @0;
+    constraint kyt_score_001_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_kyt_score_002(payload: Bytes) {
+    require payload != @0;
+    constraint kyt_score_002_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_kyt_score_003(payload: Bytes) {
+    require payload != @0;
+    constraint kyt_score_003_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_kyt_score_004(payload: Bytes) {
+    require payload != @0;
+    constraint kyt_score_004_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_kyt_score_005(payload: Bytes) {
+    require payload != @0;
+    constraint kyt_score_005_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_kyt_score_006(payload: Bytes) {
+    require payload != @0;
+    constraint kyt_score_006_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_kyt_score_007(payload: Bytes) {
+    require payload != @0;
+    constraint kyt_score_007_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_kyt_score_008(payload: Bytes) {
+    require payload != @0;
+    constraint kyt_score_008_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_kyt_score_009(payload: Bytes) {
+    require payload != @0;
+    constraint kyt_score_009_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_kyt_score_010(payload: Bytes) {
+    require payload != @0;
+    constraint kyt_score_010_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_kyt_score_011(payload: Bytes) {
+    require payload != @0;
+    constraint kyt_score_011_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_kyt_score_012(payload: Bytes) {
+    require payload != @0;
+    constraint kyt_score_012_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_kyt_score_013(payload: Bytes) {
+    require payload != @0;
+    constraint kyt_score_013_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_kyt_score_014(payload: Bytes) {
+    require payload != @0;
+    constraint kyt_score_014_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_kyt_score_015(payload: Bytes) {
+    require payload != @0;
+    constraint kyt_score_015_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_kyt_score_016(payload: Bytes) {
+    require payload != @0;
+    constraint kyt_score_016_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_kyt_score_017(payload: Bytes) {
+    require payload != @0;
+    constraint kyt_score_017_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_kyt_score_018(payload: Bytes) {
+    require payload != @0;
+    constraint kyt_score_018_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_kyt_score_019(payload: Bytes) {
+    require payload != @0;
+    constraint kyt_score_019_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_kyt_score_020(payload: Bytes) {
+    require payload != @0;
+    constraint kyt_score_020_bound == true;
+    constraint chain_id == 1202;
+  }
+
+
+  outcome score_kyt_risk(payload: Bytes) {
+    require payload != @0;
+    constraint kyt_score_bound == true;
+    constraint chain_id == 1202;
+  }
+}
