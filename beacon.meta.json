@@ -1,0 +1,14 @@
+{
+  "schema": "clrty.beacon_meta/v1",
+  "updated_at": "2026-07-29T03:15:03Z",
+  "repo_slug": "chainalysis-kyt-screener",
+  "beacon_id": "clrty-chainalysis-kyt-screener",
+  "node_name": "CLRTY-CHAINALYSIS-KYT-SCREENER",
+  "github": "https://github.com/clarity-fintech/chainalysis-kyt-screener",
+  "superstructure_root": "/Users/william/$CLRTY_PROJECT",
+  "superstructure_link": "../../../CLRTY_SUBSTRATE/boot/clrty_superstructure.json",
+  "symlinks": {
+    "clrty_superstructure.json": "../../../CLRTY_SUBSTRATE/boot/clrty_superstructure.json"
+  },
+  "framework_twin": "moniversive/framework/beacons/chainalysis-kyt-screener.mis"
+}
